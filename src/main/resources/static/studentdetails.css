@@ -1,0 +1,59 @@
+/* ✅ General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('/images/img1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* ✅ Navbar Styling */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+.text-center{
+	color:white;
+}
+/* ✅ Table Styling */
+.table {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
+
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* ✅ Buttons */
+.btn-warning {
+    background-color: #f0ad4e;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}

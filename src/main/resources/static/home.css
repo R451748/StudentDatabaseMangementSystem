@@ -1,0 +1,43 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+/* Navbar Styling */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: red;
+}
+.welcome-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('/images/img1.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-outline-light {
+    border-color: red;
+    color: red;
+}
+.btn-outline-light:hover {
+    background: red;
+    color: white;
+}

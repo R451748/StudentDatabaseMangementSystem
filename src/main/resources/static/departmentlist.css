@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #111;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+h2 {
+    text-align: center;
+    color: #dc3545;
+    margin-bottom: 30px;
+}
+
+form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+.btn-danger {
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.table {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.table th {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.table td, .table th {
+    text-align: center;
+    padding: 12px;
+}
+
+.action-btns button {
+    margin: 0 5px;
+}

@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+   height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('/images/img1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #111;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff !important;
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Button Styles */
+.welcome-btn, .logout-btn {
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-weight: bold;
+}
+
+.welcome-btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+.logout-btn {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/* Form Container Styles */
+.form-container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+h2 {
+    text-align: center;
+    color: #dc3545;
+}
+
+/* Form Field Styles */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+/* Submit Button Styles */
+.btn-danger {
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
